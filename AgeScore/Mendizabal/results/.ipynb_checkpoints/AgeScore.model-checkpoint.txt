@@ -1,0 +1,18 @@
+                       Mixed Linear Model Regression Results
+===================================================================================
+Model:                      MixedLM          Dependent Variable:          age_score
+No. Observations:           50               Method:                      REML     
+No. Groups:                 2                Scale:                       0.1951   
+Min. group size:            21               Log-Likelihood:              -39.8105 
+Max. group size:            29               Converged:                   No       
+Mean group size:            25.0                                                   
+-----------------------------------------------------------------------------------
+                                         Coef.  Std.Err.   z    P>|z| [0.025 0.975]
+-----------------------------------------------------------------------------------
+Intercept                                -1.204    0.281 -4.290 0.000 -1.754 -0.654
+C(Diagnosis, Treatment('CTL'))[T.SZ]     -0.512    0.401 -1.276 0.202 -1.299  0.274
+Age                                       0.017    0.005  3.321 0.001  0.007  0.027
+Age:C(Diagnosis, Treatment('CTL'))[T.SZ]  0.015    0.007  2.032 0.042  0.001  0.029
+Hemisphere Var                            0.000                                    
+===================================================================================
+
