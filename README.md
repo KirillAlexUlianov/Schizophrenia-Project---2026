@@ -7,17 +7,6 @@ DOI: **XXX**
 
 The study investigates chromatin organization, accelerated aging, transcriptomic alterations, and nuclear morphology in schizophrenia.
 
-## Repository Contents
-
-This repository includes code for:
-
-- Analysis of chromatin architecture and age-related changes in schizophrenia using our original multi-omics dataset (available in the NCBI Gene Expression Omnibus (GEO) under accession numbers **GSE330387** and **GSE330768**).
-- Construction of transcriptomic aging clocks based on Elastic Net regression using publicly available schizophrenia transcriptomic data from the PsychENCODE Consortium (DOI: 10.15154/1g4m-dy13).
-- Calculation of a custom transcriptomic aging metric, **Age Score**, based on previously published datasets (DOI: 10.1186/s13059-019-1747-7 and DOI: 10.7554/eLife.92393).
-- Quantitative microscopy analysis of neuronal nuclei and assessment of nuclear size differences in schizophrenia using our imaging dataset, available on Zenodo (DOI: 10.5281/zenodo.20098460).
-
----
-
 ## Repository Structure
 
 ### `TranscriptomicClocks/`
@@ -31,7 +20,7 @@ Code for constructing transcriptomic aging clocks using Elastic Net regression.
 
 ### `AgeScore/`
 
-Code for calculating the custom transcriptomic **Age Score**, a metric for estimating biological aging based on age-associated gene expression changes.
+Code for calculating the custom transcriptomic Age Score, a metric for estimating biological aging based on age-associated gene expression changes.
 
 **Data sources:**
 - Mendizabal et al., 2019 (DOI: 10.1186/s13059-019-1747-7)
